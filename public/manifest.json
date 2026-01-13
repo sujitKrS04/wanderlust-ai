@@ -1,0 +1,41 @@
+{
+  "name": "Wanderlust AI",
+  "short_name": "Wanderlust",
+  "description": "AI-powered travel itinerary planner with smart features",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["travel", "productivity", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "New Trip",
+      "url": "/",
+      "description": "Plan a new trip"
+    },
+    {
+      "name": "Saved Trips",
+      "url": "/?saved=true",
+      "description": "View saved trips"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="40" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="192" y2="192">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <!-- Globe/Earth icon -->
+  <circle cx="96" cy="96" r="50" fill="white" opacity="0.2"/>
+  <circle cx="96" cy="96" r="45" stroke="white" stroke-width="3" fill="none"/>
+  <path d="M 96 51 Q 106 76, 96 96 Q 86 116, 96 141" stroke="white" stroke-width="3" fill="none"/>
+  <path d="M 96 51 Q 76 61, 66 76 Q 56 91, 51 96 Q 56 101, 66 116 Q 76 131, 96 141" stroke="white" stroke-width="3" fill="none"/>
+  <path d="M 96 51 Q 116 61, 126 76 Q 136 91, 141 96 Q 136 101, 126 116 Q 116 131, 96 141" stroke="white" stroke-width="3" fill="none"/>
+  <line x1="51" y1="96" x2="141" y2="96" stroke="white" stroke-width="3"/>
+  <ellipse cx="96" cy="96" rx="45" ry="20" stroke="white" stroke-width="3" fill="none"/>
+  <!-- Airplane icon -->
+  <g transform="translate(120, 60) rotate(45)">
+    <path d="M 0 -5 L 15 0 L 0 2 L -5 8 L -7 8 L -3 2 L -8 3 L -10 6 L -11 6 L -10 3 L -11 0 L -10 -3 L -11 -6 L -10 -6 L -8 -3 L -3 -2 L -7 -8 L -5 -8 L 0 -5 Z" fill="white"/>
+  </g>
+</svg>
