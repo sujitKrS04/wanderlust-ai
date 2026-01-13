@@ -7,6 +7,8 @@ import AuthProvider from '@/components/AuthProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Wanderlust AI - AI-Powered Travel Planner',
   description: 'Create personalized travel itineraries with AI-powered recommendations, budget planning, and interactive maps.',

@@ -9,6 +9,8 @@ import LoadingState from '@/components/LoadingState'
 import type { TripData, ItineraryResponse } from '@/types'
 import { parseSharedTrip } from '@/utils/tripManagement'
 
+export const dynamic = 'force-dynamic'
+
 export default function SharedTrip() {
   const searchParams = useSearchParams()
   const [loading, setLoading] = useState(false)
