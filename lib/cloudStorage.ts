@@ -209,6 +209,7 @@ export class CloudStorage {
 
       return data.map(exp => ({
         id: exp.id,
+        tripId: exp.trip_id,
         category: exp.category,
         description: exp.description,
         amount: exp.amount,

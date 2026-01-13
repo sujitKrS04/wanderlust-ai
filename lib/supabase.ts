@@ -32,12 +32,17 @@ export interface DbUser {
 export interface DbTrip {
   id: string
   user_id: string
-  name: string
+  title: string
   destination: string
-  duration: number
+  start_date: string
+  end_date: string
   budget: number
-  currency: string
+  travelers: number
+  trip_type: string
   itinerary_data: any
+  is_favorite: boolean
+  is_shared: boolean
+  share_token: string | null
   created_at: string
   updated_at: string
 }
@@ -59,6 +64,6 @@ export interface DbPackingItem {
   user_id: string
   item: string
   category: string
-  checked: boolean
+  is_checked: boolean
   created_at: string
 }

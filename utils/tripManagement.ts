@@ -7,17 +7,24 @@ export function saveTrip(itinerary: ItineraryResponse, name?: string): string {
   const trips = getSavedTrips()
   const tripId = Date.now().toString()
   const tripName = name || `${itinerary.destination} - ${itinerary.totalDays} Days`
+  const now = new Date().toISOString()
 
   const savedTrip: SavedTrip = {
     id: tripId,
-    name: tripName,
+    title: tripName,
+    destination: itinerary.destination,
+    startDate: now,
+    endDate: now,
+    budget: itinerary.totalBudget,
+    travelers: 1,
+    tripType: 'leisure',
     itinerary: {
       ...itinerary,
       id: tripId,
-      createdAt: new Date().toISOString()
+      createdAt: now
     },
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString()
+    savedAt: now,
+    isFavorite: false
   }
 
   trips.push(savedTrip)

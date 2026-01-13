@@ -11,6 +11,8 @@ import SavedTrips from '@/components/SavedTrips'
 import type { TripData, ItineraryResponse, SavedTrip } from '@/types'
 import { CloudStorage } from '@/lib/cloudStorage'
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
   const { data: session } = useSession()
   const [loading, setLoading] = useState(false)

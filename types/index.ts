@@ -60,6 +60,15 @@ export interface BudgetBreakdown {
   miscellaneous: number
 }
 
+export interface BudgetExpense {
+  id: string
+  tripId: string
+  category: string
+  amount: number
+  description: string
+  date: string
+}
+
 export interface ItineraryResponse {
   destination: string
   totalDays: number
