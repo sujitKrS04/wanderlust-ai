@@ -145,7 +145,7 @@ export default function Home() {
       </main>
 
       <footer className="py-8 text-center text-gray-600 dark:text-gray-400">
-        <p>Built with ❤️ using Claude AI • © 2026 Wanderlust AI</p>
+        <p>Built with ❤️ by Sujit Kumar Sarkar • © 2026 Wanderlust AI</p>
       </footer>
     </div>
   )
