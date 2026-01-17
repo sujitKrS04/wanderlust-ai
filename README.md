@@ -382,11 +382,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Built with ❤️ by Your Name**
+**Built with ❤️ by Sujit Kumar Sarkar**
 
 - Website: [yourwebsite.com](https://yourwebsite.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [sujitKrS04](https://github.com/sujitKrS04)
+- Email: sujitsarkar1604@example.com
 
 ---
 
